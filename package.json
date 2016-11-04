@@ -1,0 +1,20 @@
+{
+  "name": "html-reporter",
+  "version": "1.0.0",
+  "description": "weird reporter taken from the https://github.com/angular/quickstart protractor.config.js",
+  "main": "reporter.js",
+  "author": {
+    "name": "somebody from the angular team"
+  },
+  "license": "ISC",
+  "dependencies": {
+    
+  },
+  "engines": {
+    "node": ">=4.4.2"
+  },
+  "devDependencies": {
+    "canonical-path": "0.0.2",
+    "lodash": "^4.16.2"
+  }
+}
