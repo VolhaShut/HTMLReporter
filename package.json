@@ -2,7 +2,7 @@
   "name": "html-reporter",
   "version": "1.0.0",
   "description": "weird reporter taken from the https://github.com/angular/quickstart protractor.config.js",
-  "main": "reporter.js",
+  "main": "reporter_html.js",
   "author": {
     "name": "somebody from the angular team"
   },
