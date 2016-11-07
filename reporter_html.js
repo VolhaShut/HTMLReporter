@@ -12,7 +12,7 @@ var Reporter = function(options) {
   var failedSpecs=0;
   var passedSpecs=0;
   initOutputFile(options.outputFile);
-  console.log("1"+path.dirname(options.outputFile));
+
   var screensDir= path.dirname(options.outputFile)+'/screens/_';
   
   options.appDir = options.appDir ||  './';
@@ -43,11 +43,8 @@ var Reporter = function(options) {
 
   this.specDone = function(spec) {
 
-  	console.log("2"+screensDir);
-    var nameScreen=screensDir+spec.description.replace(/\s+/g,"_")+'.png';
-    console.log("3"+nameScreen);
 
-   // var nameScreen='./screens/_'+spec.description.replace(/\s+/g,"_")+'.png';
+    var nameScreen=screensDir+spec.description.replace(/\s+/g,"_")+'.png';
 
     var currentSpec = {
       description: spec.description,
