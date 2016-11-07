@@ -42,13 +42,13 @@ var Reporter = function(options) {
   };
 
   this.specDone = function(spec) {
-<<<<<<< HEAD
+
   	console.log("2"+screensDir);
     var nameScreen=screensDir+spec.description.replace(/\s+/g,"_")+'.png';
     console.log("3"+nameScreen);
-=======
+
     var nameScreen='./screens/_'+spec.description.replace(/\s+/g,"_")+'.png';
->>>>>>> b0ab5bdbde24c448f6fae1ffdfab26afbe582e8c
+
     var currentSpec = {
       description: spec.description,
       status: spec.status,
