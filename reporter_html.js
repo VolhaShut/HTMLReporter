@@ -47,7 +47,7 @@ var Reporter = function(options) {
     var nameScreen=screensDir+spec.description.replace(/\s+/g,"_")+'.png';
     console.log("3"+nameScreen);
 
-    var nameScreen='./screens/_'+spec.description.replace(/\s+/g,"_")+'.png';
+   // var nameScreen='./screens/_'+spec.description.replace(/\s+/g,"_")+'.png';
 
     var currentSpec = {
       description: spec.description,
